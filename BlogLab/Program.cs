@@ -3,8 +3,10 @@ using BlogLab.Models.Account;
 using BlogLab.Models.Settings;
 using BlogLab.Repository;
 using BlogLab.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using System.IdentityModel.Tokens.Jwt;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +37,7 @@ builder.Services.AddIdentityCore<ApplicationUserIdentity>(options =>
 builder.Services.AddControllers();
 builder.Services.AddCors();
 
-/*
+
 
 builder.Services.AddAuthentication(options =>
 {
@@ -47,7 +49,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.RequireHttpsMetadata = false;
     options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
+    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
     {
         ValidateIssuer = true,
         ValidateAudience = true,
@@ -55,11 +57,11 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         ValidIssuer = configuration["Jwt:Issuer"],
         ValidAudience = configuration["Jwt:Issuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"])),
+        IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"])),
         ClockSkew = TimeSpan.Zero
     };
 });
-*/
+
 
 // Add services to the container.
 builder.Services.AddRazorPages();
