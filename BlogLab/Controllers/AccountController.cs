@@ -23,7 +23,7 @@ namespace BlogLab.Web.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-
+        //http://localhost:5000/api/Account/register
         [HttpPost("register")]
         public async Task<ActionResult<ApplicationUser>> Register(ApplicationUserCreate applicationUserCreate)
         {
