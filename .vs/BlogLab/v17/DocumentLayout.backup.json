@@ -3,27 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968ABE58-F3B8-4754-8A55-EA6EBE10D1A9}|BlogLab.Identity\\BlogLab.Identity.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.identity\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968ABE58-F3B8-4754-8A55-EA6EBE10D1A9}|BlogLab.Identity\\BlogLab.Identity.csproj|solutionrelative:bloglab.identity\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.models\\account\\applicationuseridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|solutionrelative:bloglab.models\\account\\applicationuseridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,79 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALkUAAAAAAAAAAD4v8gUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-15T23:00:39.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "BlogLab\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "BlogLab\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:51:57.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUserIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Account\\ApplicationUserIdentity.cs",
-              "RelativeDocumentMoniker": "BlogLab.Models\\Account\\ApplicationUserIdentity.cs",
-              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Account\\ApplicationUserIdentity.cs",
-              "RelativeToolTip": "BlogLab.Models\\Account\\ApplicationUserIdentity.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:50:41.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserStore.cs",
-              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Identity\\UserStore.cs",
-              "RelativeDocumentMoniker": "BlogLab.Identity\\UserStore.cs",
-              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Identity\\UserStore.cs",
-              "RelativeToolTip": "BlogLab.Identity\\UserStore.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:42:09.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Program.cs",
-              "RelativeDocumentMoniker": "BlogLab\\Program.cs",
-              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Program.cs",
-              "RelativeToolTip": "BlogLab\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:40:21.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BlogLab\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\AccountController.cs",
               "RelativeToolTip": "BlogLab\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:30:22.865Z",
+              "WhenOpened": "2024-10-15T23:01:59.294Z",
               "EditorCaption": ""
             }
           ]
