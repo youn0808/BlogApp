@@ -58,6 +58,7 @@ export class AccountService {
     return this.isLoggedIn() && this.currentUserValue?.username === username;
   }
 
+  //allow users to be able to get the current user so we can do somthing with taht.
   public isLoggedIn() {
     const currentUser = this.currentUserValue;
     const isLoggedIn = !!currentUser && !!currentUser.token;
