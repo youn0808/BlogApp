@@ -55,6 +55,7 @@ namespace BlogLab.Repository
 
         public async Task<ApplicationUserIdentity> GetByUsernameAsync(string normalizedUsername, CancellationToken cancellationToken)
         {
+            
             cancellationToken.ThrowIfCancellationRequested();
 
             ApplicationUserIdentity applicationUser;
@@ -68,7 +69,6 @@ namespace BlogLab.Repository
                     commandType: CommandType.StoredProcedure
                     );
             }
-
             return applicationUser;
         }
     }

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|solutionrelative:bloglab.repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "BlogLab.Repository\\IAccountRepository.cs",
-              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\IAccountRepository.cs",
-              "RelativeToolTip": "BlogLab.Repository\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BlogLab\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BlogLab\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T04:08:38.16Z",
+              "WhenOpened": "2024-10-15T23:01:59.294Z",
               "EditorCaption": ""
             }
           ]

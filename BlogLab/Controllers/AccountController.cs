@@ -1,4 +1,8 @@
-﻿using BlogLab.Models.Account;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using BlogLab.Models.Account;
 using BlogLab.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -23,10 +27,11 @@ namespace BlogLab.Web.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-        //http://localhost:5000/api/Account/register
+
         [HttpPost("register")]
         public async Task<ActionResult<ApplicationUser>> Register(ApplicationUserCreate applicationUserCreate)
         {
+
             var applicationUserIdentity = new ApplicationUserIdentity
             {
                 Username = applicationUserCreate.Username,

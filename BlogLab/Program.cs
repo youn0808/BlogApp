@@ -16,6 +16,7 @@ JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
 var configuration = builder.Configuration;
 
+
 builder.Services.Configure<CloudinaryOptions>(configuration.GetSection("CloudinaryOptions"));
 
 builder.Services.AddScoped<ITokenService, TokenService>();
