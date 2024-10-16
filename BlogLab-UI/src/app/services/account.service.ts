@@ -50,7 +50,7 @@ export class AccountService {
     this.currentUserSubject$.next(user);
   }
 
-  public get currentUserValue(): ApplicationUser|null {
+  public get currentUserValue(): ApplicationUser| null {
     return this.currentUserSubject$.value;
   }
 
