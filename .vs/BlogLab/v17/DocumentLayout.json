@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456C3B94-4CEA-4781-8C15-ADAC19FD5E0A}|BlogLab\\BlogLab.csproj|solutionrelative:bloglab\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0C7F06-C577-4283-9504-BFA10EAEBB3F}|BlogLab.Services\\BlogLab.Services.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D0C7F06-C577-4283-9504-BFA10EAEBB3F}|BlogLab.Services\\BlogLab.Services.csproj|solutionrelative:bloglab.services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|solutionrelative:bloglab.repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.repository\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEA64D1-3F8E-4A78-928C-320F2804FBC9}|BlogLab.Repository\\BlogLab.Repository.csproj|solutionrelative:bloglab.repository\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.models\\photo\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|solutionrelative:bloglab.models\\photo\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|c:\\users\\hhwan\\onedrive\\desktop\\blogproject\\bloglab\\bloglab.models\\photo\\photocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FB0C05-1AF1-4BA8-BFD3-4FB7A98242D4}|BlogLab.Models\\BlogLab.Models.csproj|solutionrelative:bloglab.models\\photo\\photocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Services\\PhotoService.cs",
+              "RelativeDocumentMoniker": "BlogLab.Services\\PhotoService.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Services\\PhotoService.cs",
+              "RelativeToolTip": "BlogLab.Services\\PhotoService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:07:38.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\IPhotoRepository.cs",
+              "RelativeDocumentMoniker": "BlogLab.Repository\\IPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\IPhotoRepository.cs",
+              "RelativeToolTip": "BlogLab.Repository\\IPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:07:33.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "BlogLab.Repository\\PhotoRepository.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Repository\\PhotoRepository.cs",
+              "RelativeToolTip": "BlogLab.Repository\\PhotoRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAvwFUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:06:47.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhotoCreate.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Photo\\PhotoCreate.cs",
+              "RelativeDocumentMoniker": "BlogLab.Models\\Photo\\PhotoCreate.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Photo\\PhotoCreate.cs",
+              "RelativeToolTip": "BlogLab.Models\\Photo\\PhotoCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:06:20.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Photo\\Photo.cs",
+              "RelativeDocumentMoniker": "BlogLab.Models\\Photo\\Photo.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab.Models\\Photo\\Photo.cs",
+              "RelativeToolTip": "BlogLab.Models\\Photo\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:06:18.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "BlogLab\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "BlogLab\\Controllers\\PhotoController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:06:05.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogLab\\appsettings.json",
+              "ToolTip": "C:\\Users\\hhwan\\OneDrive\\Desktop\\BlogProject\\BlogLab\\BlogLab\\appsettings.json",
+              "RelativeToolTip": "BlogLab\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T01:03:25.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

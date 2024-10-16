@@ -1,17 +1,15 @@
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AccountService } from './../../services/account.service';
-import { Component } from '@angular/core';
+import { AccountService } from 'src/app/services/account.service';
 
 @Component({
   selector: 'app-navbar',
-  standalone: true,
-  imports: [],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent {
-  isCollapsed:boolean = true;
+export class NavbarComponent implements OnInit {
 
+  isCollapsed = true;
 
   constructor(
     public accountService: AccountService,
@@ -25,7 +23,5 @@ export class NavbarComponent {
     this.accountService.logout();
     this.router.navigate(['/']);
   }
-
-
 
 }
