@@ -50,7 +50,7 @@
 
         <div *ngIf="hasError('email', 'pattern')" class="invalid-feedback">
             Invalid email format
-        </div>  
+        </div>
 
         <div *ngIf="hasError('email', 'maxlength')" class="invalid-feedback">
             Can be at most 30 characters
@@ -78,10 +78,10 @@
     <div class="mb-3">
         <input
             type="password"
-            [ngClass]="{'is-invalid' : 
-                        (formHasError('isMatching') || hasErrors('confirmPassword')) 
+            [ngClass]="{'is-invalid' :
+                        (formHasError('isMatching') || hasErrors('confirmPassword'))
                         && isTouched('confirmPassword'),
-                        'is-valid' : 
+                        'is-valid' :
                         (!formHasError('isMatching') && !hasErrors('confirmPassword'))
                         && isTouched('confirmPassword')}"
             class="form-control form-control-lg"

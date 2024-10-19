@@ -22,6 +22,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
       fullname: [null, [
+        Validators.required,
         Validators.minLength(10),
         Validators.maxLength(30)
       ]],
@@ -32,7 +33,7 @@ export class RegisterComponent implements OnInit {
       ]],
       email: [null, [
         Validators.required,
-        Validators.pattern(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i),
+        Validators.email,
         Validators.maxLength(30)
       ]],
       password: [null, [
