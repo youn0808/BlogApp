@@ -4,7 +4,7 @@
         <h1 class="display-4 mt-5">{{ isNew() ? 'Create' : 'Edit' }} Blog</h1>
     </div>
 
-    <a *ngIf="!isNew()" routerLink="/blogs/{{blogForm.get('blogId').value}}"
+    <a *ngIf="!isNew()" [routerLink]="['/blogs', blogForm.get('blogId').value]"
         class="badge rounded-pill bg-primary text-light mb-2 p-2">
         Preview Blog
     </a>
@@ -32,18 +32,17 @@
 
             <input
                 type="text"
-                [ngClass]="{'is-invalid' : hasErrors('title') && isTouched('title'),
-                            'is-valid' : !hasErrors('title') && isTouched('title')}"
+                [ngClass]="{'is-invalid': hasErrors('title') && isTouched('title')}"
                 class="form-control form-control-lg"
                 formControlName="title"
-                placeholder="Write a catchy title"
+                placeholder="Enter blog title"
                 id="title">
 
             <div *ngIf="hasError('title', 'required')" class="invalid-feedback">
                 Title is required
             </div>
 
-            <div *ngIf="hasError('title', 'minlength') || hasError('title', 'maxlength')" 
+            <div *ngIf="hasError('title', 'minlength') || hasError('title', 'maxlength')"
                 class="invalid-feedback">
                 Must be between 10-50 characters
             </div>
@@ -65,7 +64,7 @@
                 Content is required
             </div>
 
-            <div *ngIf="hasError('content', 'minlength') || hasError('content', 'maxlength')" 
+            <div *ngIf="hasError('content', 'minlength') || hasError('content', 'maxlength')"
                 class="invalid-feedback">
                 Must be between 300-5000 characters
             </div>
