@@ -1,55 +1,61 @@
 <div class="container">
-    <div class="row">
-        <div class="col-md-6 offset-md-3 mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card mt-5">
+        <div class="card-body">
+          <h2 class="card-title text-center">Login</h2>
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input
+                type="text"
+                id="username"
+                formControlName="username"
+                class="form-control form-control-lg"
+                placeholder="Enter your username"
+                [ngClass]="{
+                  'is-invalid': hasErrors('username') && isTouched('username'),
+                  'is-valid': !hasErrors('username') && isTouched('username')
+                }"
+              />
+              <div *ngIf="hasError('username', 'required')" class="invalid-feedback">
+                Username is required
+              </div>
+              <div *ngIf="hasError('username', 'minlength') || hasError('username', 'maxlength')" class="invalid-feedback">
+                Must be between 5-20 characters
+              </div>
+            </div>
 
-            <h3 class="text-dark">Login</h3>
-            <p class="text-dark">Get to your dashboard and start blogging</p>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                formControlName="password"
+                class="form-control form-control-lg"
+                placeholder="Enter your password"
+                [ngClass]="{
+                  'is-invalid': hasErrors('password') && isTouched('password'),
+                  'is-valid': !hasErrors('password') && isTouched('password')
+                }"
+              />
+              <div *ngIf="hasError('password', 'required')" class="invalid-feedback">
+                Password is required
+              </div>
+              <div *ngIf="hasError('password', 'minlength') || hasError('password', 'maxlength')" class="invalid-feedback">
+                Password must be between 10-50 characters
+              </div>
+            </div>
 
-            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-
-                <div class="mb-3">
-                    <input
-                        type="text"
-                        [ngClass]="{'is-invalid' : hasErrors('username') && isTouched('username'),
-                                    'is-valid' : !hasErrors('username') && isTouched('username')}"
-                        class="form-control form-control-lg"
-                        formControlName="username"
-                        placeholder="Username">
-
-                    <div *ngIf="hasError('username', 'required')" class="invalid-feedback">
-                        Username is required
-                    </div>
-
-                    <div *ngIf="hasError('username', 'minlength') || hasError('username', 'maxlength')" 
-                        class="invalid-feedback">
-                        Must be between 5-20 characters
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <input
-                        type="password"
-                        [ngClass]="{'is-invalid' : hasErrors('password') && isTouched('password'),
-                                    'is-valid' : !hasErrors('password') && isTouched('password')}"
-                        class="form-control form-control-lg"
-                        formControlName="password"
-                        placeholder="Password">
-
-                    <div *ngIf="hasError('password', 'required')" class="invalid-feedback">
-                        Password is required
-                    </div>
-
-                    <div *ngIf="hasError('password', 'minlength') || hasError('password', 'maxlength')" 
-                        class="invalid-feedback">
-                        Must be between 10-50 characters
-                    </div>
-                </div>
-
-                <button class="btn btn-block mb-3 bg-primary text-light"
-                [disabled]="!loginForm.valid">Login</button>
-
-            </form>
-
+            <div class="text-center">
+              <button class="btn btn-lg btn-primary mb-3" [disabled]="!loginForm.valid">Login</button>
+            </div>
+          </form>
+          <div class="text-center mt-3">
+            <p>Don't have an account? <a routerLink="/">Create Account</a></p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
