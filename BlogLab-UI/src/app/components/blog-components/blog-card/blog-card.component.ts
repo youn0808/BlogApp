@@ -20,9 +20,9 @@ export class BlogCardComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    if (!!this.blog.photoId) {
+    if (this.blog.photoId) {
       this.photoService.get(this.blog.photoId).subscribe(photo => {
-        if (!!photo) {
+        if (photo) {
           this.blogPhotoUrl = photo.imageUrl;
         }
       })

@@ -1,4 +1,4 @@
-<div class="container" *ngIf="!!blog">
+<div class="container" *ngIf="blog">
 
     <div class="d-flex justify-content-center">
         <h1 class="display-4 mt-5 text-center">{{blog.title}}</h1>
@@ -11,12 +11,11 @@
     </div>
 
     <div class="mt-4">
-        <img src="{{blogPhotoUrl}}" class="blog-image img-fluid text-wrapper">
+        <img src="{{blogPhotoUrl}}" class="mb-2 blog-image img-fluid text-wrapper">
         <p class="blog-content">
             {{blog.content}}
         </p>
     </div>
-
     <app-comment-system *ngIf="blog" [blogId]="blog.blogId"></app-comment-system>
 
 </div>
