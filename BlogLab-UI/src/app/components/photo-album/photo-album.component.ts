@@ -68,7 +68,7 @@ export class PhotoAlbumComponent implements OnInit {
     formData.append('file', this.photoFile, this.newPhotoDescription);
 
     this.photoService.create(formData).subscribe(createdPhoto => {
-      
+
       this.photoForm.reset();
       this.photoUploadElement.nativeElement.value = '';
 

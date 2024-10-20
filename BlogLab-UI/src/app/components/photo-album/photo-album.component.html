@@ -8,6 +8,7 @@
 
         <ng-template [ngIf]="photos.length > 0" [ngIfElse]="nophotos">
 
+          <!--Carousel is for presendation looking photo  -->
             <carousel [pauseOnFocus]="true">
                 <slide *ngFor="let photo of photos">
 
@@ -18,15 +19,15 @@
                     <div class="carousel-caption mb-3">
                         <h3>{{photo.description}}</h3>
 
-                        <button class="btn btn-danger mt-3" *ngIf="!photo.deleteConfirm" 
+                        <button class="btn btn-danger mt-3" *ngIf="!photo.deleteConfirm"
                             (click)="confirmDelete(photo)">Delete Photo</button>
-                        
+
                         <div class="delete-confirmation ps-2 pe-2 mt-3" *ngIf="!!photo.deleteConfirm">
                             <span class="text-dark">Sure?</span>
 
                             <button class="btn btn-link p-1"
                                 (click)="deleteConfirmed(photo)">Yes</button>
-                            
+
                             <button class="btn btn-link p-1"
                                 (click)="cancelDeleteConfirm(photo)">No</button>
                         </div>
@@ -77,11 +78,11 @@
             <div class="col-8">
                 <div class="mb-3">
                     <label for="file">Add photo to your album</label>
-                    <input 
+                    <input
                         type="file"
                         name="photoFile"
                         #photoUploadElement
-                        (change)="onFileChange($event)" 
+                        (change)="onFileChange($event)"
                         class="form-control"
                         required>
                     <small class="form-text text-muted" id="fileHelp">Max 10mb size</small>
